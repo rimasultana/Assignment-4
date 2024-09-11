@@ -48,7 +48,7 @@ console.log(result); */
 const result = checkDigitsInName('!@#');
 console.log(result); */
 
- const person = { name: "Rajib", testScore: 45,  schoolGrade: 25, isFFamily : true  };
+/*  const person = { name: "Rajib", testScore: 45,  schoolGrade: 25, isFFamily : true  };
 function calculateFinalScore(obj) {
   if (typeof obj !== "object") {
     return "Invalid Input";
@@ -62,9 +62,9 @@ function calculateFinalScore(obj) {
 }
 const result = calculateFinalScore(person);
 console.log(result); 
+ */
 
-
-/* function waitingTime(waitingTimes, serialNumber) {
+ function waitingTime(waitingTimes, serialNumber) {
   if (!Array.isArray(waitingTimes) || typeof serialNumber !== "number") {
     return "Invalid Input";
   }
@@ -80,4 +80,4 @@ console.log(result);
   return totalTime;
 }
 const result = waitingTime([7, 8, 3, 4, 5], "9");
-console.log(result); */
+console.log(result); 
