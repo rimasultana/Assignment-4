@@ -14,7 +14,7 @@ const result = calculateTax(10000, 3000);
 console.log(result); 
  */
 
-!2 task
+/* !2 task
 function sendNotification(email) {
 const cheakEmail = email.indexOf('@');
  if(cheakEmail === -1){
@@ -31,9 +31,9 @@ return result;
 }
 
 const result =sendNotification('zihadgmail@.com');
-console.log(result);
+console.log(result); */
 
-/* function checkDigitsInName(name) {
+function checkDigitsInName(name) {
   if (typeof name !== "string") {
     return "Invalid Input";
   }
@@ -46,7 +46,7 @@ console.log(result);
 }
 
 const result = checkDigitsInName('!@#');
-console.log(result); */
+console.log(result);
 
 /*  const person = { name: "Rajib", testScore: 45,  schoolGrade: 25, isFFamily : true  };
 function calculateFinalScore(obj) {
